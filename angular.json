@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "bherwanishop": "apps/bherwanishop",
+    "bherwanishop-e2e": "apps/bherwanishop-e2e"
+  }
+}
