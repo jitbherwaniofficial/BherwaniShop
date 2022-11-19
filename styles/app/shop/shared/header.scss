@@ -1,0 +1,26 @@
+header {
+    margin-bottom: 25px;
+    .logo{
+        img{
+            width: 90px;
+            height: 90px;
+        }
+    }
+
+    .search{
+        padding-top:25px ;
+    }
+
+    .navigation{
+        padding-top: 24px;
+    }
+
+    .tools{
+        padding-top:33px ;
+
+        .pi{
+            margin-right: 10px;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+<div class="featured-products">
+    <h2>Featured Products</h2>
+    <div class="grid">
+        <div class="col-3 animate__animated animate__fadeInRight" *ngFor="let product of featuredProducts">
+            <products-product-item [product]="product"></products-product-item>
+        </div>
+    </div>
+</div>

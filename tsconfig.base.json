@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@env/*": ["environments/*"],
+      "@grafficocreation/orders": ["libs/orders/src/index.ts"],
+      "@grafficocreation/products": ["libs/products/src/index.ts"],
+      "@grafficocreation/ui": ["libs/ui/src/index.ts"],
+      "@grafficocreation/users": ["libs/users/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
